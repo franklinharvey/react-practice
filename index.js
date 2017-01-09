@@ -6,5 +6,5 @@ const title = React.createElement(
 
 ReactDOM.render(
   title,
-  document.getElementByID('react-container')
+  document.getElementById('react-container')
 )
