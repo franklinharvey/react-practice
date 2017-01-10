@@ -8,19 +8,19 @@ render(
 	<SkiDayList days={
 		[
 			{
-				resort: "Squaw Valley",
+				resort: "Squaw",
 				date: new Date("1/2/2016"),
 				powder: true,
 				backcountry: false
 			},
 			{
-				resort: "Kirkwood",
+				resort: "Kirk",
 				date: new Date("3/28/2016"),
 				powder: false,
 				backcountry: false
 			},
 			{
-				resort: "Mt. Tallac",
+				resort: "Mammoth",
 				date: new Date("4/2/2016"),
 				powder: false,
 				backcountry: true
