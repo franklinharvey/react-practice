@@ -1,10 +1,11 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { SkiDayCount } from './components/SkiDayCount'
+import './stylesheets/ui.scss'
+import { App } from './components/App'
 
 window.React = React
 
 render(
-	<SkiDayCount backcountry={false}/>,
+	<App />,
 	document.getElementById('react-container')
 )
